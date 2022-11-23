@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> functions</title>
+</head>
+<body>
+   
+    <input type="text" id="Total" placeholder="Məbləğ" style="display: block; margin:10px">
+    <input type="text" id="Faiz" placeholder="Faiz" style="display: block; margin:10px">
+    <select name="month" id="Tarix"  style="display: block; margin:10px">
+
+        <option value="12">12</option>
+        <option value="18">18</option>
+        <option value="24">24</option>
+        <option value="32">32</option>
+        <option value="40">40</option>
+    </select>
+    <input onclick="Calculate()" type="button" id="btn" value="Hesabla"  style="display: block; margin:10px">
+    <h2> Ümumi Məbləğ: <span id="hesab-1"></span></h2>
+    <h2>Aylıq Ödəniş: <span id="ay-1"></span></h2>
+
+
+    
+    <script src="assets/Js/app.js"></script>
+</body>
+</html>
